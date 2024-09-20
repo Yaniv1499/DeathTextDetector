@@ -22,21 +22,7 @@ class Youdied:
         self.video_path = video_path
         self.reader = easyocr.Reader(['en'], gpu=use_gpu)
 
-    # def process_frame_for_text(self, frame):
-    #     if frame is None:
-    #         return False
-        
-    #     scale = 0.7  # Adjust the scaling factor to balance speed and accuracy
-    #     resized_frame = cv2.resize(frame, (0, 0), fx=scale, fy=scale)
 
-    #     # Use EasyOCR to extract text from the resized frame
-    #     result = self.reader.readtext(resized_frame)
-
-    #     # Check if "YOU DIED" is in the detected text
-    #     for (bbox, text, prob) in result:
-    #         if "YOU DIED" in text.upper():
-    #             return True
-    #     return False
     def process_frame_for_text(self, frame):
         if frame is None:
             return False
