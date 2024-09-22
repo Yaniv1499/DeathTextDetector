@@ -7,7 +7,6 @@
 - [Installation](#installation)
 - [How to Run](#how-to-run)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -59,7 +58,7 @@ Before you begin, make sure your machine meets the following requirements:
 1. Ensure you have activated the virtual environment.
 2. Run the Gradio UI:
     ```bash
-    python youdied_detector.py
+    python DeathTextDetector.py
     ```
     This will launch a Gradio interface in your web browser where you can upload videos or provide local file paths.
 
@@ -80,24 +79,6 @@ Before you begin, make sure your machine meets the following requirements:
 5. **Download Highlights:**
     If 'YOU DIED' moments are found, a link will appear for you to download the highlights reel.
 
-## Contributing
-Contributions are welcome! Whether you're fixing a bug, adding a feature, or enhancing the design, feel free to fork this repository and submit a pull request.
-
-### Steps to Contribute:
-1. Fork the project.
-2. Create your feature branch:
-    ```bash
-    git checkout -b feature/amazing-feature
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m 'Add some amazing feature'
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/amazing-feature
-    ```
-5. Open a pull request.
 
 May the flames guide thee...
 
