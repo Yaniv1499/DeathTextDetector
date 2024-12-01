@@ -1,4 +1,4 @@
-
+:)
 ---
 # YOU DIED Detector
 ## Table of Contents
